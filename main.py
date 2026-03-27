@@ -138,7 +138,7 @@ def hangman():
 
         if "".join(display_word) == secret_word:
                 print("Glückwunsch. Du hast gewonnen!")
-                break
+                
         else:
                 print(f"Schade. Du hast verloren. Das gesuchte Wort war '{secret_word}'.")
 
